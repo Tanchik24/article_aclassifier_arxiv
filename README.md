@@ -23,5 +23,7 @@ Streamlit-приложение для multilabel-классификации на
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+git lfs install
+git lfs pull
 streamlit run app.py --server.port 8505
 ```
